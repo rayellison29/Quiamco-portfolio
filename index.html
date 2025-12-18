@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ray Ellison Quiamco | Aspiring Senior Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">RQ<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero section">
+        <div class="container hero-grid">
+            <div class="hero-text fade-in">
+                <p class="tagline">Senior Developer in the Making</p>
+                <h1>Ray Ellison <span class="accent">Quiamco</span></h1>
+                <p class="description">4th Year BSIT student focused on building robust backends and intuitive frontends. I turn complex problems into elegant, scalable code.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="image-wrapper">
+                    <img src="https://via.placeholder.com/400" alt="Ray Ellison Quiamco">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>Full-Stack JS</h3>
+                    <p>ES6+, Node.js, and React ecosystem.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Systems</h3>
+                    <p>PostgreSQL, MongoDB, and Redis caching.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>DevOps</h3>
+                    <p>Docker, Git, and CI/CD pipelines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+          <div class="projects-grid">
+    <article class="project-card fade-in">
+        <div class="project-content">
+            <span class="project-tag">Full-Stack</span>
+            <h3>Capstone Management System</h3>
+            <p>A high-performance automated record system designed for educational institutions, reducing data redundancy by 40% through optimized schema design.</p>
+            <div class="tech-stack">
+                <span>React</span><span>Node.js</span><span>PostgreSQL</span>
+            </div>
+            <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Source</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+        </div>
+    </article>
+
+    <article class="project-card fade-in">
+        <div class="project-content">
+            <span class="project-tag">WebSockets</span>
+            <h3>SentriChat Real-time Engine</h3>
+            <p>A low-latency chat application featuring private messaging and group rooms. Implemented specialized event handling to manage 100+ concurrent connections.</p>
+            <div class="tech-stack">
+                <span>Socket.io</span><span>Express</span><span>Redis</span>
+            </div>
+            <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Source</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+        </div>
+    </article>
+
+    <article class="project-card fade-in">
+        <div class="project-content">
+            <span class="project-tag">E-Commerce</span>
+            <h3>Nexus Headless Storefront</h3>
+            <p>A modern e-commerce platform using a headless architecture. Developed a custom inventory management API and integrated Stripe for secure payments.</p>
+            <div class="tech-stack">
+                <span>Next.js</span><span>Stripe API</span><span>MongoDB</span>
+            </div>
+            <div class="project-links">
+                <a href="#"><i class="fab fa-github"></i> Source</a>
+                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+        </div>
+    </article>
+</div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Let's Build Something</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ray Ellison Quiamco. Built with Pure JS.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "c4f7348e-79bd-40ca-a5e1-94d2161a92b2",
+        apiHost: "https://cloud.flowiseai.com",
+    })
+</script>
+</body>
+</html>
